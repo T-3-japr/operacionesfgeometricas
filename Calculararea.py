@@ -26,8 +26,8 @@ def area_rectangulo(base, altura):
     return a_rectangulo
 
 
-def area_trapecio(Base, altura, base):
-    a_trapecio = ((Base + base) / 2) * altura
+def area_trapecio(base1, altura, base):
+    a_trapecio = ((base1 + base) / 2) * altura
     return a_trapecio
 
 
@@ -41,7 +41,6 @@ def area_poligono_regular(n_lados, lado, apotema):
     return a_poligono
 
 
-def area_rombo(DiagonalM, diagonalm):
-    a_rombo = (DiagonalM * diagonalm) / 2
+def area_rombo(diagonalm1, diagonalm):
+    a_rombo = (diagonalm1 * diagonalm) / 2
     return a_rombo
-

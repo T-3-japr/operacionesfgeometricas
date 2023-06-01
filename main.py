@@ -1,4 +1,5 @@
 from Calculararea import *
+from calcularvolumen import *
 
 if __name__ == '__main__':
     print(__name__)
@@ -7,3 +8,5 @@ if __name__ == '__main__':
 
     radio = int(input("Introduzca el radio del círculo: "))
     print("Área del círculo: ", area_circulo(radio))
+
+    print("Volumen de la esfera: ", volumen_esfera(radio))
